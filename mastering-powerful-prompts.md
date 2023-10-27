@@ -331,11 +331,9 @@ Act as a Performance Improvement Consultant. Design an 'Action Mapping' plan to 
 ```
 
 ## One Shot Prompts
-
 A one-shot prompt is a type of learning scenario where a system or model is provided with only a single example to learn from. It is like giving the system just one picture or sentence to understand something. This approach is used when training examples are scarce. The system might need background knowledge or pre-existing information to compensate for the lack of examples. GPT-4 will give the best results.
 
 ### Prompt 1:
-
 ```
 Example Course_Topic: How to cook a smoked potato salad
 Example Learning Objective:
@@ -345,7 +343,6 @@ Act like an instructional designer and generate concise learning objectives for 
 ```
 
 ### Prompt 2:
-
 ```
 Write 10 multiple choice questions about ["Enter Topic Here"]. Use the Example Multiple Choice Question format.
 
@@ -363,12 +360,11 @@ Waxy potatoes are low in starch, but high in sugar and water. This means they ho
 ```
 
 ## Few-Shot Prompts
-
 A few-shot prompt refers to a learning situation where a system or model is given a very small number of supervised examples to learn from. It could be as little as two to five examples for each category or concept. In some cases, there might be up to 100 examples available.
 
 Compared to a one-shot prompt, a few-shot prompt provides a slightly larger number of examples for the system to learn from, but still fewer than the usual amount needed for comprehensive learning. To compensate for the limited examples, the system may require additional knowledge or pre-training, such as using a pre-trained language model.
 
-Prompt 1:
+### Prompt 1:
 ```
 Based on the following user statements and their sentiment and attribute labels, determine if the new statements are positive, neutral, or negative, provide estimated user attitude for each attribute label for each review EXAMPLE: 😊 would be super positive, 😐 is neutral and lower is generally diminishing returns of quality such as 😔. Then provide explanations.
 {
@@ -510,7 +506,6 @@ Considering the potential factors, John is a frontline salesperson who has met t
 ```
 
 ## Zero-Shot Chain of Thought
-
 Given a problem, add "Let's think step-by-step" to the original prompt.
 
 ### Prompt 1:
@@ -528,7 +523,6 @@ Let's think step by step.
 ```
 
 ## Tree of Thought Prompts
-
 The Tree of Thought system, or ToT for short, works a bit like a mind map for ChatGPT, where each branch represents a complete idea or sequence of words that contributes to solving a problem.
 
 It's a way for ChatGPT to keep track of its own thought process. Through this system, ChatGPT can check in on itself, see how far along each 'branch' or thought it has come, and evaluate how much each thought is helping to solve the problem at hand.
@@ -536,7 +530,6 @@ It's a way for ChatGPT to keep track of its own thought process. Through this sy
 This all happens as part of a careful, thought-out reasoning process.
 
 ### Directions:
-
 - Copy the text block and paste it into the ChatGPT " **Send a message…**" text box. Update the **bold text**. Click the **Send Button** to generate the results in ChatGPT.
 
 ### Prompt 1:
@@ -555,7 +548,6 @@ The challenging issue today is: How can we create an engaging and effective empl
 ```
 
 ## Large Freeform Prompt
-
 You can make very large prompts for complex returns for ChatGPT. In the case of an eLearning storyboard, this prompt contains six paragraphs of information. Everything that is required for this storyboard is included in this prompt, but this design does have a few deficiencies:
 
 1. Adjusting words to modify the output could be difficult to keep track of
@@ -563,12 +555,11 @@ You can make very large prompts for complex returns for ChatGPT. In the case of 
 3. These types of prompts require more tokens.
 
 # Directions:
-
 Copy the text block and paste it into the ChatGPT "Send a message…" text box. Update any text that needs to be replaced. Click the Send Button to generate the results in ChatGPT.
 
 ### Prompt 1:
 ```
-### The highly detailed eLearning Storyboard involves understanding various parameters. These parameters include the Screen Number, which represents the numeric value of the current screen. Another important parameter is the Objective, which refers to the learning objective based on the Course Outline. Detailed text, known as On Screen Text, is provided to support the Objective. Graphics, such as images, are also included to enhance the learning experience. Additionally, Audio elements like voice, sound effects, and music are incorporated to further support the Objective. Video files are utilized as well, offering visual aids for better understanding. Interactions play a crucial role in the storyboard, utilizing learning interactions based on an Authoring Tool. Interaction Media, which includes additional graphics, audio, and video, is employed to complement the interactions. Navigation is an essential aspect and consists of the prior Screen Number (Back) and the Next Screen Number (Next).
+The highly detailed eLearning Storyboard involves understanding various parameters. These parameters include the Screen Number, which represents the numeric value of the current screen. Another important parameter is the Objective, which refers to the learning objective based on the Course Outline. Detailed text, known as On Screen Text, is provided to support the Objective. Graphics, such as images, are also included to enhance the learning experience. Additionally, Audio elements like voice, sound effects, and music are incorporated to further support the Objective. Video files are utilized as well, offering visual aids for better understanding. Interactions play a crucial role in the storyboard, utilizing learning interactions based on an Authoring Tool. Interaction Media, which includes additional graphics, audio, and video, is employed to complement the interactions. Navigation is an essential aspect and consists of the prior Screen Number (Back) and the Next Screen Number (Next).
 
 As an Instructional Designer, one needs to fulfill specific roles and possess certain parameters. Extensive knowledge of instructional design theories, methodologies, and best practices is crucial. Curriculum development, learning assessment design, and performance improvement are skills that must be highly developed. The ability to create effective learning experiences for diverse audiences, considering various learning modalities, is vital. Proficiency in using educational technology tools and platforms to enhance the learning experience is expected. Effective communication and collaboration skills are necessary to work with subject matter experts, stakeholders, and learners. Adaptability and responsiveness to evolving needs are required, along with engagement in continuous professional development to stay current with trends and innovations. Strong project management skills ensure the timely and efficient delivery of high-quality learning solutions. Commitment to ethical practices and the promotion of diversity, equity, and inclusion is essential. Demonstrating a track record of creating engaging learning experiences leading to measurable outcomes and learner satisfaction is highly valued.
 
@@ -579,9 +570,9 @@ Based on the given task, the objective is to create a table containing the Cours
 The intent of this project is to develop the course using an eLearning Authoring Tool, specifically Articulate Storyline. The process involves writing highly detailed On-Screen text based on the Course Outline. It is crucial to understand all the defined interaction types available in Articulate Storyline. These interactions will be utilized in the eLearning Storyboard to enhance learner engagement. Additionally, audio sound effects and graphic descriptions will be incorporated into the eLearning Storyboard. To enrich the course, a video will be added at the beginning and end. Finally, a five-question quiz will be included at the end of the course to assess learner understanding.
 
 The Course Outline for this particular eLearning course focuses on potato salad. It begins with a course overview and objectives. The history of potato salad is explored, highlighting its origins and evolution over time. The variations of potato salad, both regional and international, are discussed, showcasing the diverse ways this dish is prepared worldwide. Finally, the significance of smoked potato salad is emphasized, explaining why it is a noteworthy variation in this culinary landscape.
+```
 
 ## Structured Prompt
-
 A structured prompt utilizes code or pseudocode to represent the prompt information. Typically, prompts are created using with JSON (JavaScript Object Notation), YAML (Yet Another Markup Language), or Macromancy (pseudocode format). Here are the pros and cons of a structured prompt.
 
 1. Less words are used making it easier to make modification to the prompts and to find specific words to change
@@ -590,7 +581,6 @@ A structured prompt utilizes code or pseudocode to represent the prompt informat
 4. All symbols are removed when the prompt is converted into tokens
 
 ### Directions:
-
 Copy the text block and paste it into the ChatGPT "Send a message…" text box. Update any text that needs to be replaced. Click the Send Button to generate the results in ChatGPT.
 
 ### Prompt 1:
@@ -656,4 +646,5 @@ Copy the text block and paste it into the ChatGPT "Send a message…" text box. 
 ]
 }
 ```
+
 ©2023 Lodestone Digital, LLC | Proprietary and Confidential. All Rights Reserved. | JoshCavalier.com
