@@ -1,4 +1,6 @@
-Prompts sourced from DataScienceDojo: https://app.hubspot.com/documents/3274755/view/690992476?accessId=458c2e
+Prompts sourced from DataScienceDojo: 
+- https://app.hubspot.com/documents/3274755/view/690992476?accessId=458c2e
+- https://joshcavalier.notion.site/joshcavalier/150-Prompts-for-Education-9e446568ad35405c921db3b710a7feb8?p=afcadb14c97a4cfd9b6561f548a09ff8&pm=s
 
 # Mastering Powerful Prompts
 
